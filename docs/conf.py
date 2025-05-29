@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'liride_training_edgarsergues'
-copyright = '2025, EdgarSergues'
-author = 'EdgarSergues'
+project = 'liride_training'
+copyright = '2025, edgarsergues'
+author = 'edgarsergues'
 release = '1'
 
 # -- General configuration ---------------------------------------------------
@@ -17,7 +17,7 @@ release = '1'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
 
